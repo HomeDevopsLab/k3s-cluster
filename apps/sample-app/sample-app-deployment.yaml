@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: devkrolikowski/sample-app:0.0.1 # {"$imagepolicy": "flux-system:sample-app"}
+        image: devkrolikowski/sample-app:0.0.2 # {"$imagepolicy": "flux-system:sample-app"}
         resources:
           limits:
             memory: "128Mi"
